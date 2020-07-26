@@ -1,0 +1,21 @@
+<p>Hello {{name | uppercase}}...........{{dataService.count}}</p>
+
+<app-test></app-test>
+
+
+<app-test-component1></app-test-component1>
+
+<app-test-component3></app-test-component3>
+
+{{dataService.count}}
+
+<button (click)="increase()">increase</button>
+
+
+
+{{choose()}}
+<br>
+
+<br>
+<input ngModel #user />
+{{user | json}}
